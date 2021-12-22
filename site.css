@@ -2,20 +2,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input {
-    padding: 12px 20px;
-    margin: 8px 0 32px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
 .container {
     margin: auto;
     width: 50%;
+    border: 2px solid grey;
 }
 
-.data,
-.actions {
+.section {
     padding: 16px;
+}
+.element {
+    display: inline-block;
+    width: 45%;
 }
